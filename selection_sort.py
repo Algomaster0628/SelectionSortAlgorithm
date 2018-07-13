@@ -1,5 +1,5 @@
 def selection_sort(num_list): # Takes a list with n integer inputself.
-    """Apply Insertion sort algorithm on list input and sorts them."""
+    """Apply selection sort algorithm on list input and sorts them."""
     sortedlist = []
     while len(num_list) > 0:
         minvalue = num_list[0]
